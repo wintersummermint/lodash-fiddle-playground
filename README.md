@@ -18,7 +18,7 @@ No installation just Go to App : http://lodashfiddle.cf/ or https://lodashfiddle
 
 ## Credits
 
-Credits from Jeff McRiffey  https://github.com/jmcriffey/es6-fiddle-web and samples http://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting
+Credits from Jeff McRiffey  https://github.com/jmcriffey/es6-fiddle-web and samples https://github.com/mdunisch/lololodash/tree/master/exercises that gives me idea to have a fiddle playground for lodash
 
 ## License
 
