@@ -1,5 +1,5 @@
 
-# Loadash Fiddle Web
+# Lodash Fiddle Web
 
 [![Build Status](https://travis-ci.org/jmcriffey/es6-fiddle-web.png?branch=master)](https://travis-ci.org/jmcriffey/es6-fiddle-web)
 
@@ -19,6 +19,10 @@ No installation just Go to App : https://lodashfiddle.herokuapp.com/
 ## Credits
 
 Credits from Jeff McRiffey  https://github.com/jmcriffey/es6-fiddle-web and samples https://github.com/mdunisch/lololodash/tree/master/exercises that gives me idea to have a fiddle playground for lodash
+
+## TODO
+
+more samples and UI improvements
 
 ## License
 
