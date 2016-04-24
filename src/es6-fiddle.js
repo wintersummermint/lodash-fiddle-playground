@@ -6,6 +6,7 @@
         iDoc = document.querySelector('.result').contentDocument,
         iHead = iDoc.getElementsByTagName('head')[0],
         babel = document.createElement('script'),
+        lodash = document.createElement('script'),
         babelPolyfill = document.createElement('script'),
         logger = document.createElement('script'),
         style = document.createElement('style'),
@@ -233,8 +234,10 @@
     };
 
     //add babel to the iframe
-    babelPolyfill.src = '/lib/babel/babel-polyfill.js';
-    babel.src = '/lib/babel/babel.js';
+    babelPolyfill.src = 'lib/babel/babel-polyfill.js';
+    babel.src = 'lib/babel/babel.js';
+    lodash.src = 'lib/lodash/lodash.min.js';
     iHead.appendChild(babelPolyfill);
     iHead.appendChild(babel);
+    iHead.appendChild(lodash);
 })();

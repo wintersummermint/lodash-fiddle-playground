@@ -1,16 +1,16 @@
 {
   "name": "es6-fiddle-web",
-  "description": "Fiddlin' with ECMAScript6.",
+  "description": "Lodash fiddle with ES2015 feautures",
   "version": "0.0.1",
-  "homepage": "http://www.es6fiddle.net",
+  "homepage": "http://www.lodashfiddle.com",
   "author": {
-    "name": "Jeff McRiffey",
-    "email": "jeff.mcriffey@tryambition.com",
-    "url": "github.com/jmcriffey"
+    "name": "Nixon Galario",
+    "email": "nixongalario@gmail.com",
+    "url": "github.com/wintersummermint"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmcriffey/es6-fiddle-web.git"
+    "url": "https://github.com/wintersummermint/lodash-fiddle-web.git"
   },
   "dependencies": {
     "express": "^3.4.8",

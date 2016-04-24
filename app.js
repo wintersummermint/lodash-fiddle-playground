@@ -30,7 +30,9 @@ app.get(/^\/embed\/\w+$/, function(req, res) {
 
 api(app);
 
-app.listen(port);
+app.listen(port, function() {
+    console.log('port is ' + port);
+});
 
 console.log(
     'Express version ' +
