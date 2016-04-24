@@ -3,7 +3,7 @@ window.lodashExample.filter = {};
 window.lodashExample.filter.code = [
 	'let characters = [',
 	'{ \'name\': \'barney\', \'age\': 36, \'pets\': [\'hoppy\'] },',
-	'{ \'name\': \'fred\',   \'age\': 40, \'pets\': [\'baby puss\', \'dino\'] }'
+	'{ \'name\': \'fred\',   \'age\': 40, \'pets\': [\'baby puss\', \'dino\'] }',
 	'];',   
 	'',
 	'let filterAge = _.filter(characters, { \'age\': 36 });',
