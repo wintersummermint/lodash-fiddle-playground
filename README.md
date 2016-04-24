@@ -5,7 +5,7 @@
 
 ## Installation
 
-No installation just Go to App : http://lodashfiddle.cf/ or https://lodashfiddle.herokuapp.com/
+No installation just Go to App : https://lodashfiddle.herokuapp.com/
 
 ## Contributing
 
