@@ -1,6 +1,6 @@
-window.es6Example.promise = {};
+window.lodashExample.promise = {};
 
-window.es6Example.promise.code = [
+window.lodashExample.promise.code = [
     'var longFn = function() {',
     '\treturn new Promise(function(res, rej) {',
     '\t\tsetTimeout(res, 1000);',
@@ -15,4 +15,4 @@ window.es6Example.promise.code = [
     'longFn().then(coolFn);'
 ].join('\n');
 
-window.es6Example.promise.display = 'Promises';
+window.lodashExample.promise.display = 'Promises';

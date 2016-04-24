@@ -1,6 +1,6 @@
-window.es6Example.generator = {};
+window.lodashExample.generator = {};
 
-window.es6Example.generator.code = [
+window.lodashExample.generator.code = [
     'function* range(start, end, step) {',
     '\twhile (start < end) {',
     '\t\tyield start;',
@@ -14,4 +14,4 @@ window.es6Example.generator.code = [
     ''
 ].join('\n');
 
-window.es6Example.generator.display = 'Generators';
+window.lodashExample.generator.display = 'Generators';

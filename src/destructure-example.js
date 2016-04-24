@@ -1,6 +1,6 @@
-window.es6Example.destructure = {};
+window.lodashExample.destructure = {};
 
-window.es6Example.destructure.code = [
+window.lodashExample.destructure.code = [
     'let [one, two] = [1, 2];',
     'let {three, four} = {three: 3, four:  4};',
     '',
@@ -8,4 +8,4 @@ window.es6Example.destructure.code = [
     ''
 ].join('\n');
 
-window.es6Example.destructure.display = 'Destructured Assignment';
+window.lodashExample.destructure.display = 'Destructured Assignment';

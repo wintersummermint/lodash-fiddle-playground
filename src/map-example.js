@@ -1,6 +1,6 @@
-window.es6Example.map = {};
+window.lodashExample.map = {};
 
-window.es6Example.map.code = [
+window.lodashExample.map.code = [
     'let x = new Map([[1, \'is a number key\']]);',
     'let today = new Date()',
     '',
@@ -37,4 +37,4 @@ window.es6Example.map.code = [
     '}'
 ].join('\n');
 
-window.es6Example.map.display = 'Map';
+window.lodashExample.map.display = 'Map';

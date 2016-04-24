@@ -1,6 +1,6 @@
-window.es6Example.template = {};
+window.lodashExample.template = {};
 
-window.es6Example.template.code = [
+window.lodashExample.template.code = [
     'let person = {name: \'John Smith\'};',
     'let tpl = `My name is ${person.name}.`;',
     '',
@@ -8,4 +8,4 @@ window.es6Example.template.code = [
     ''
 ].join('\n');
 
-window.es6Example.template.display = 'Template Literals';
+window.lodashExample.template.display = 'Template Literals';

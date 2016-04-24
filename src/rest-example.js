@@ -1,6 +1,6 @@
-window.es6Example.rest = {};
+window.lodashExample.rest = {};
 
-window.es6Example.rest.code = [
+window.lodashExample.rest.code = [
     'function format(str, ...args) {',
     '\treturn str.replace(/\\{\\s*(\\d+)\\s*\\}/g, function(m, n) {',
     '\t\treturn args[n];',
@@ -18,4 +18,4 @@ window.es6Example.rest.code = [
     ''
 ].join('\n');
 
-window.es6Example.rest.display = 'Rest Parameters';
+window.lodashExample.rest.display = 'Rest Parameters';

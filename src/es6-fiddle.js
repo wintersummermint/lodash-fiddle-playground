@@ -18,7 +18,7 @@
         bootstrap = null;
 
     //set the global examples object
-    window.es6Example = {};
+    window.lodashExample = {};
     window.exampleSelector = document.querySelector('.examples');
     window.embedded = embedded;
 
@@ -225,7 +225,7 @@
             //load the selected code
             window.exampleSelector.onchange = function() {
                 if (window.exampleSelector.value) {
-                    fiddle.setValue(window.es6Example[window.exampleSelector.value].code);
+                    fiddle.setValue(window.lodashExample[window.exampleSelector.value].code);
                 }
             };
         }

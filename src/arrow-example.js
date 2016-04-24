@@ -1,14 +1,13 @@
-window.es6Example.arrow = {};
+window.lodashExample.filter = {};
 
-window.es6Example.arrow.code = [
-    'let square = x => x * x;',
-    'let add = (a, b) => a + b;',
-    'let pi = () => 3.1415;',
-    '',
-    'console.log(square(5));',
-    'console.log(add(3, 4));',
-    'console.log(pi());',
-    ''
+window.lodashExample.filter.code = [
+	'let characters = [',
+	'{ \'name\': \'barney\', \'age\': 36, \'pets\': [\'hoppy\'] },',
+	'{ \'name\': \'fred\',   \'age\': 40, \'pets\': [\'baby puss\', \'dino\'] }'
+	'];',   
+	'',
+	'let filterAge = _.filter(characters, { \'age\': 36 });',
+	'console.log(JSON.stringify(filterAge));'
 ].join('\n');
 
-window.es6Example.arrow.display = 'Arrow Functions';
+window.lodashExample.filter.display = 'filter collection';

@@ -1,6 +1,6 @@
-window.es6Example.defaultParam = {};
+window.lodashExample.defaultParam = {};
 
-window.es6Example.defaultParam.code = [
+window.lodashExample.defaultParam.code = [
     'function sayMsg(msg=\'This is a default message.\') {',
     '\tconsole.log(msg);',
     '}',
@@ -10,4 +10,4 @@ window.es6Example.defaultParam.code = [
     ''
 ].join('\n');
 
-window.es6Example.defaultParam.display = 'Default Parameters';
+window.lodashExample.defaultParam.display = 'Default Parameters';

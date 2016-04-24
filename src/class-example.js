@@ -1,6 +1,6 @@
-window.es6Example.cls = {};
+window.lodashExample.cls = {};
 
-window.es6Example.cls.code = [
+window.lodashExample.cls.code = [
     'class Polygon {',
     '\tconstructor(height, width) { //class constructor',
     '\t\tthis.name = \'Polygon\';',
@@ -31,4 +31,4 @@ window.es6Example.cls.code = [
     ''
 ].join('\n');
 
-window.es6Example.cls.display = 'Classes and Inheritance';
+window.lodashExample.cls.display = 'Classes and Inheritance';

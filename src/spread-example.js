@@ -1,6 +1,6 @@
-window.es6Example.spread = {};
+window.lodashExample.spread = {};
 
-window.es6Example.spread.code = [
+window.lodashExample.spread.code = [
     'function add(a, b) {',
     '\treturn a + b;',
     '}',
@@ -11,4 +11,4 @@ window.es6Example.spread.code = [
     ''
 ].join('\n');
 
-window.es6Example.spread.display = 'Spread Operator';
+window.lodashExample.spread.display = 'Spread Operator';

@@ -1,6 +1,6 @@
-window.es6Example.set = {};
+window.lodashExample.set = {};
 
-window.es6Example.set.code = [
+window.lodashExample.set.code = [
     'let x = new Set([1, 2, 3, 4, 4, 4, 5]);',
     '',
     'x.add(6);',
@@ -34,4 +34,4 @@ window.es6Example.set.code = [
     '}'
 ].join('\n');
 
-window.es6Example.set.display = 'Set';
+window.lodashExample.set.display = 'Set';
