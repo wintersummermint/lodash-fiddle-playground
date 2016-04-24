@@ -10,4 +10,4 @@ window.lodashExample.filter.code = [
 	'console.log(JSON.stringify(filterAge));'
 ].join('\n');
 
-window.lodashExample.filter.display = 'filter collection';
+window.lodashExample.filter.display = 'Filter Collection';
