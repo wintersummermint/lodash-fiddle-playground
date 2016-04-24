@@ -13,27 +13,28 @@
     </head>
     <body>
         <div class="header">
-            <span class="about">About</span>
+            <h1>lodash</h1>
+            <p>lodash fiddle with ES2016</p>
         </div>
         <div class="content">
              <select class="examples">
-                <option value="" selected="selected">ES6 Examples</option>
+                <option value="" selected="selected">Lodash Examples</option>
             </select>
             <div class="fiddle-wrapper">
                 <div class="fiddle-header">
                     <span>Code</span>
-                     <div class="share">
+                     <div class="action-button shadow animate green lint share">
+                     <i class="fa fa-share-alt"></i>
                         <div class="share-drop">
                             <label for="share-link">Link</label>
                             <input value="" id="share-link">
                             <label for="shared-embed">Embed</label>
                             <input value="" id="share-embed">
-                            <a class="tweet" href="#" target="_blank">Tweet</a>
                         </div>
                     </div>
-                    <div title="save" class="save"></div>
-                    <div title="lint" class="lint"></div>
-                    <div title="run" class="run"></div>
+                    <a class="action-button shadow animate green lint save" title="save"><i class="fa  fa-save"></i></a>
+                    <a class="action-button shadow animate green lint" title="lint"><i class="fa fa-check-circle-o"></i></a>
+                    <a class="action-button shadow animate green run" title="run"><i class="fa fa-play-circle-o"></i></a>
                 </div>
                 <div class="fiddle"></div>
             </div>
@@ -43,7 +44,5 @@
             </div>
         </div>
         <script src="src/es6-fiddle.js"></script>
-        <script src="src/lodash.min.js"></script>
-        <script src="src/underscore.min.js"></script>
     </body>
 </html>

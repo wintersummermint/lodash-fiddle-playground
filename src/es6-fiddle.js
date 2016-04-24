@@ -30,15 +30,13 @@
 
         if (share) {
             var embed = share.querySelector('#share-embed'),
-                link = share.querySelector('#share-link'),
-                twitter = share.querySelector('.tweet');
+                link = share.querySelector('#share-link');
 
             share.style.display = 'inline-block';
             link.value = document.location.href;
             embed.value = iframe;
             link.onclick = link.select;
             embed.onclick = embed.select;
-            twitter.href = 'http://twitter.com/home?status=ES6%20fiddle:%20' + document.location.href;
         }
     }
 
