@@ -8,6 +8,7 @@
         babel = document.createElement('script'),
         lodash = document.createElement('script'),
         babelPolyfill = document.createElement('script'),
+        q = document.createElement('script'),
         logger = document.createElement('script'),
         style = document.createElement('style'),
         lintLog = null,
@@ -235,7 +236,9 @@
     babelPolyfill.src = '/lib/babel/babel-polyfill.js';
     babel.src = '/lib/babel/babel.js';
     lodash.src = '/lib/lodash/lodash.min.js';
+    q.src = '/lib/q/q.min.js';
     iHead.appendChild(babelPolyfill);
     iHead.appendChild(babel);
     iHead.appendChild(lodash);
+    iHead.appendChild(q);
 })();
